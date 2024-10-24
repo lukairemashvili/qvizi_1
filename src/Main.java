@@ -3,10 +3,10 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        task1();
+        taskBookEbook();
         task2();
     }
-    public static void task1(){
+    public static void taskBookEbook(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("enter title: ");
         String title = scanner.nextLine();
